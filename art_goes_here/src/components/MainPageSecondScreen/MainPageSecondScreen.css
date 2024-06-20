@@ -1,0 +1,21 @@
+#mainpage-secondscreen {
+  border: 1px solid pink;
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-title{
+  border: 1px solid black;
+  width: 50%;
+  height: 10%;
+  color: black;
+}
+
+#mainpage-secondscreen .section-title h1 {
+  color: black !important; /* Use important as a last resort */
+  margin: 0;
+}
