@@ -1,0 +1,43 @@
+#contact-main{
+    /* border: 1px solid black; */
+    height: 50vh;
+    width: 100vw;
+    padding: 10px;
+}
+
+.contact-title{
+    margin: 15px;
+    width: fit-content;
+    letter-spacing: 10px;
+    font-size: 50px;
+}
+
+.contact-title h1{
+    padding: 0;
+    margin: 0;
+}
+
+.contact-card-holder{
+    /* border: 1px solid black; */
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.contact-card{
+    border: 1px solid black;
+    padding: 5px;
+    width: 300px;
+}
+
+.contact-card h3{
+    margin: 0;
+    font-family: 'Bebas Neue';
+    font-weight: 100;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}

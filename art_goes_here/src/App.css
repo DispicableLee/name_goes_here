@@ -8,7 +8,7 @@
 
 
 #app {
-  background-color: #e2e2e2 !important;
+  background-color: white !important;
   text-align: center;
   width: 100vw;
   display: flex;
@@ -17,6 +17,11 @@
   justify-content: flex-start;
   scroll-behavior: smooth;
   min-height: 100vh; /* Ensure the app covers at least the full viewport height */
+}
+
+h1{
+  font-family: 'Bebas Neue';
+  margin: 0;
 }
 
 

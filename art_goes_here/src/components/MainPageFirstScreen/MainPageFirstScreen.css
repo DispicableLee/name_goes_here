@@ -1,5 +1,5 @@
 #mainpage-firstscreen {
-  border: 1px solid hotpink;
+  /* border: 1px solid hotpink; */
   /* background-color: #e2e2e2; */
   height: 100vh; /* Full viewport height */
   width: 90vw; 
@@ -12,7 +12,7 @@
 }
 
 .name-goes-here {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 50%;
   height: 30%;
 }
@@ -23,9 +23,16 @@
 }
 
 #art-goes-here {
-  border: 1px solid red;
-  height: 30%;
-  width: 30%;
+  /* border: 1px solid red; */
+  height: 60%;
+  width: 50%;
   position: relative;
   right: 0;
+  margin-right: 30px
+}
+
+#art-goes-here img{
+  /* border: 1px solid black; */
+  height: 100%;
+  width: 100%;
 }
